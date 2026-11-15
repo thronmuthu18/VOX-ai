@@ -1,0 +1,37 @@
+# CHAMP Windows AI Personal Agent — Production Requirements
+# Install: pip install -r requirements.txt
+
+# ── Gemini AI ─────────────────────────────────────────────────
+google-genai>=1.0.0
+
+# ── Config ────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Speech Recognition ────────────────────────────────────────
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.14
+
+# ── Text-to-Speech ────────────────────────────────────────────
+edge-tts>=6.1.9
+pygame>=2.5.0
+
+# ── Browser & Web Automation ──────────────────────────────────
+playwright>=1.40.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+duckduckgo-search>=3.9.0
+
+# ── Document Intelligence (RAG) ───────────────────────────────
+chromadb>=0.4.0
+sentence-transformers>=2.3.0
+pymupdf>=1.23.0
+
+# ── Office Automation & Data Processing ───────────────────────
+openpyxl>=3.1.0
+python-docx>=1.1.0
+python-pptx>=0.6.21
+reportlab>=4.0.0
+pandas>=2.0.0
+
+# ── Testing ───────────────────────────────────────────────────
+pytest>=7.4.0

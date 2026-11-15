@@ -1,0 +1,7 @@
+﻿python : C:\Users\sudalai muthu\AppData\Local\Programs\Python\Python310\python.exe: No module named pyright
+At line:1 char:24
++ cd d:\juniors\muthuAI; python -m pyright --outputjson 2>&1 | Out-File ...
++                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\sudala...e named pyright:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

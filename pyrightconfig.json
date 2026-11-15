@@ -1,0 +1,8 @@
+{
+  "include": ["muthuAI", "."],
+  "extraPaths": ["muthuAI", "."],
+  "pythonVersion": "3.10",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "none",
+  "reportMissingModuleSource": "none"
+}

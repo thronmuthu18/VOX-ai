@@ -1,0 +1,10 @@
+[tool.pyright]
+include = ["muthuAI", "."]
+extraPaths = ["muthuAI", "d:/juniors/muthuAI", "."]
+pythonVersion = "3.10"
+typeCheckingMode = "basic"
+reportMissingImports = false
+reportMissingModuleSource = false
+
+[tool.pyrefly]
+search-paths = ["muthuAI", "d:/juniors/muthuAI", "."]

@@ -1,0 +1,39 @@
+# ============================================================
+# MuthuAI v1.0 — Git Ignore File
+# ============================================================
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data & persistence
+data/
+data/documents/*
+!data/documents/.gitkeep
+data/vector_db/*
+data/memory/*
+data/logs/*
+data/cache/*
+logs/
+cache/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Windows Executable / PyInstaller Build Output
+dist/
+build/
+*.spec
+*.exe
